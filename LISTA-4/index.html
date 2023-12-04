@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-lista</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="geral">
+        <div id="form">
+            <form>
+                <h1>Adicione os Produtos</h1>
+                <label for="nome">Nome do Produto:
+                    <input type="text" id="nome" placeholder="Informe o nome do Produto"><br><br>
+                </label>
+                <label for="preço">Preço do Produto:
+                    <input type="text" id="preço" placeholder="Informe o preço do Produto"><br><br>
+                </label>
+                <label for="codigo"> Código do Produto
+                    <input type="text" id="codigo" placeholder="Informe o código"><br><br>
+                </label>
+                <button id="button">Adicionar</button>
+            </form>
+        </div>
+        <div id="secundaria">
+            <h2>Produtos</h2>
+            <div id="nomeP"></div>
+            <div id="preçoP"></div>
+            <div id="compradoP"></div>
+        </div>
+        <div id="remover">
+            <div>
+                <h2>Remover itens</h2>
+                <p id="p">Insira o item para remover</p>
+                <form>
+                    <input type="text" id="itemRemover" placeholder="Informe o nome do item" ><br><br><br>
+                    <button id="buttonRemover">Remover</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

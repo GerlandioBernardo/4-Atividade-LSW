@@ -1,0 +1,73 @@
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#nome, #preço, #codigo{
+    width: 300px;
+    height: 40px;
+    margin-left: 10%;
+}
+body{
+    background-color:blue;
+}
+#form{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+   
+}
+h1,h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(42, 165, 128);
+}
+::placeholder{
+    font-size: 17px;
+}
+#button{
+    margin-left: 10%;
+    width: 310px;
+    height: 40px;
+    font-size: 20px;
+    background-color:rgb(19, 172, 19);
+}
+#button:hover{
+    background-color:rgb(12, 54, 12);
+    cursor: pointer;
+}
+#nomeP, #preçoP, #compradoP{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+}
+#secundaria, #remover{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin-left: 100px;
+
+}
+#p{
+    text-align: center;
+    font-size: 20px;
+}
+#itemRemover{
+    width: 300px;
+    height: 40px;
+    margin-left: 5%;
+}
+#buttonRemover{
+    width: 310px;
+    height: 40px;
+    margin-left: 5%;
+    font-size: 20px;
+    background-color:rgb(19, 172, 19);
+}
+#buttonRemover:hover{
+    background-color:rgb(12, 54, 12);
+    cursor: pointer;
+}
